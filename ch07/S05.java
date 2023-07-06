@@ -1,4 +1,4 @@
-// package ch07;
+package ch07;
 
 // public class S05 {
 //     public static void main(String[] args) {

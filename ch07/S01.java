@@ -1,4 +1,4 @@
-// package ch07;
+package ch07;
 
 // class 초보자 {
 //     String skill1 = "달팽이세마리";

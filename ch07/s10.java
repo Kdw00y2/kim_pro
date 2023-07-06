@@ -1,4 +1,4 @@
-// package ch07;
+package ch07;
 
 // class 종이접기책목차{
 

@@ -1,4 +1,4 @@
-// package ch03;
+package ch03;
 
 // public class S03 {
 //     public static void main(String[] args) {

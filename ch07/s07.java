@@ -1,4 +1,4 @@
-// package ch07;
+package ch07;
 
 // // 추상적 클래스
 // // abstract class는 '종족'을 의미한다.

@@ -1,4 +1,4 @@
-// package ch07;
+package ch07;
 
 // class Skill{
 //     String name; // 스킬 이름

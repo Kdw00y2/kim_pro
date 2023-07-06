@@ -1,4 +1,4 @@
-// package ch07;
+package ch07;
 
 // // 다른 패키지의 클래스를 가져올 때
 // // import를 사용한다

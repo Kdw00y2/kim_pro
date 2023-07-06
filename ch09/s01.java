@@ -21,7 +21,7 @@ public class s01 {
         System.out.println("str.endsWith(\"money\") : " + str.endsWith("money"));
         System.out.println("str.trim() " + str.trim());
         System.out.println("str.replace(\"e\", \"x\") : " + str.replace("e", "x"));
-        // System.out.println("str.repeat(2) : " + str.repeat(2));
+        System.out.println("str.repeat(2) : " + str.repeat(2));
         System.out.println("str.split(\" \") : " + str.split(" ").length);
         System.out.println("str.split(\" \") : " + str.split(" ")[1]);
         System.out.println("str.split(\" \") : " + str.split(" ")[4]);
@@ -73,7 +73,7 @@ public class s01 {
         // 문자열을 문자배열로 바꿔서 반복할 떄
         // 각 문자에 문자열메소드를 사용하고 싶을 떄
         for (int i = 0; i < split.length; i++) {
-            System.out.println(split[i].repeat(2));
+            // System.out.println(split[i].repeat(2));
         }
 
         System.out.println("String.join(\"\", split)  :" + String.join("", split));

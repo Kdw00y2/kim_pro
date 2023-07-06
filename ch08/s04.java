@@ -1,4 +1,4 @@
-// package ch08;
+package ch08;
 
 // import java.util.InputMismatchException;
 // import java.util.Scanner;

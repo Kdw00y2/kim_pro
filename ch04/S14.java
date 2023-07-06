@@ -1,4 +1,4 @@
-// package ch04;
+package ch04;
 
 // import java.text.MessageFormat;
 

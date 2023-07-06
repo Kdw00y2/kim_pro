@@ -1,4 +1,4 @@
-// package ch06;
+package ch06;
 
 // // 함수를 사용하기 위한 클래스
 // class CalcUtil {

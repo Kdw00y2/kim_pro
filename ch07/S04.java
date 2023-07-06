@@ -1,4 +1,4 @@
-// package ch07;
+package ch07;
 
 // // 모든 스킬들의 공통적인 부분을 세팅한다
 // // MAX_POINT 모든 스킬들이 공통적으로 사용하는 변하지 않는 값을 세팅(static final)

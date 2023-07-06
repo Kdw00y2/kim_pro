@@ -1,4 +1,4 @@
-// package ch06;
+package ch06;
 
 // class Temp {
 //     // 자기 자신을 호출 하는 함수
