@@ -1,0 +1,20 @@
+<h1 id="time"></h1>
+<script>
+  // setTimeout
+
+  // 정해놓은 시간이 되면 내부 코드가 작동 된다
+  // 3초 뒤에 메시지를 띄워줘
+  // 매개변수 - 콜백함수, 시간(ms)
+  //   setTimeout(() => {
+  //     alert("장비를 정지합니다.");
+  //   }, 3000);
+
+  // setInterval
+  // 정해놓은 시간마다 내부 코드가 작동 된다
+  // 매개변수 - 콜백함수, 시간(ms)
+  setInterval(() => {
+    const tag = document.getElementById("time");
+    const date = new Date();
+    tag.innerText = `${date.getHours()}시 ${date.getMinutes()}분 ${date.getSeconds()}초`;
+  }, 1000);
+</script>

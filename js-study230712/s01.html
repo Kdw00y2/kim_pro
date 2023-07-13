@@ -1,0 +1,99 @@
+<script>
+    // 개발을 하는 이유
+    // 현실에서 일어나는 일들 중에서
+    // 반복적이거나
+    // 불편하거나 한 일들을 편하게 쉽게 즐겁게 만드는 일
+
+    // 오해
+    // 프로그래밍의 원리를 밝힌다? 필요없음
+
+    // 응용프로그램 개발자
+    // 고수 프로그래머들이 만들어 놓은
+    // 기능들을 잘 가져다가 좋은 서비스 만들면 됨
+
+    console.log("ㅎㅇ");
+
+    // 자바와 자바스크립트의 차이
+
+    // 자바스크립트는 타입을 명시하지 않아도 된다
+    // 자바 String str = "a";
+    var str = "a"; // var는 함수단위 스코프
+    let str1 = "a"; // let은 블록단위 스코프
+    const str2 = "a"; // const는 블록단위 스코프 + final
+
+    // 자바는 모든 코드가 class 안에 작성된다
+    // 자바스크립트는 class 가 없어도 코드를 작성할 수 있다
+    function add(a, b){
+        return a + b;
+    }
+
+    console.log(add(1, 2));
+    console.log(add("a", "b"));
+
+    // 자바스크립트에서는 OR조건을 사용하면
+    // 마지막 값이나 false가 아닌 값이 출력된다
+    console.log(false || false || true);
+    console.log(false || false || "ㅎㅇ");
+
+    // 자바스크립트 OR조건에서
+    // 0이나 null 등도 false 조건으로 판단한다
+    console.log(0 || null || "ㅎㅇ");
+
+    const data = "aaa";
+    
+    // if나 while의 조건 안에 boolean이 아닌
+    // 값이 들어가면 true를 대신할 수 있다
+    if(data){
+        console.log("널이 아닙니다.");
+    }
+
+    const str3 = "12";
+    // typeof 를 사용해서 타입을 판단할 수 있다
+    console.log(typeof str3);
+
+    // == , ===
+    // 자바스크립트에서 ==은 값만 비교한다
+    console.log("12" == 12);
+    console.log(true == 1);
+    console.log(false == 0);
+    console.log(undefined == null);
+
+    // ===은 값과 타입 모두를 비교한다
+    console.log("12" === 12);
+
+    // 자바 정수 / 정수 == 정수
+    // 자바스크립트 정수 / 정수 == 정수 또는 실수
+    console.log(3 / 2);
+
+
+    // 형변환
+    const str4 = String(12);
+    console.log(typeof str4);
+    const num1 = Number(str4);
+    console.log(typeof num1);
+
+    // 문자열과 char는 공유된다
+    // 홑따옴표도 문자열이다
+    console.log("a123");
+    console.log(typeof 'a123');
+
+    // 백틱도 문자열이다
+    console.log(`a123`);
+
+    // 백틱을 사용하면 문자열포맷팅이 가능하다
+    console.log(`a123 ${str}`);
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+</script>

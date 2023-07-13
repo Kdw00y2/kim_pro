@@ -1,0 +1,25 @@
+<script>
+  // 구조 분해 할당
+
+  const intArray = [10, 20, 30];
+  //   const first = intArray[0];
+  //   const second = intArray[1];
+
+  // 순서가 중요해서
+  // 0번째부터 변수가 할당 된다
+  // 2번째 것을 가져오려면 0번째 1번째 것도 가져와야 한다
+  const [first, second, asdf] = intArray;
+  console.log(first);
+  console.log(second);
+  console.log(asdf);
+
+  const obj = {
+    name: "홍길동",
+    age: 12,
+  };
+  // 객체를 구조 분해 할당할 때에는 이름이 중요하다
+  const {age, name} = obj;
+  console.log(age);
+  console.log(name);
+
+</script>

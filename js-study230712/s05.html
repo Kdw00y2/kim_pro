@@ -1,0 +1,23 @@
+<script>
+  // 함수가 들어가는 메소드
+
+  class Cat {
+    constructor(name) {
+      this.name = name;
+    }
+
+    call(func) {
+        // 함수의 매개변수로 들어가는 함수를 
+        // 콜백 함수라고 한다
+      func(this.name);
+    }
+  }
+
+  const cat = new Cat("야옹이");
+
+  const hello = (value) => console.log(value + " 안녕?");
+
+  cat.call(hello);
+
+
+</script>

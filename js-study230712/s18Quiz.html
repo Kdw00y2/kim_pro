@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .light {
+        background-color: white;
+      }
+      .dark {
+        background-color: black;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="themeButton">모드 변경</button>
+    <script>
+      // body의 배경을 흰색 검은색
+      // style, class
+
+      // 변경 버튼을 누르면 흰색 검은색 토글
+      // 이벤트 리스너
+      document.querySelector("#themeButton").addEventListener("click", () => {
+        if (document.body.classList.contains("dark")) {
+          document.body.className = "light";
+          localStorage.setItem("theme", "light");
+        } else {
+          document.body.className = "dark";
+          localStorage.setItem("theme", "dark");
+        }
+      });
+
+      // 새로고침해도 색깔이 유지되어야 한다
+      // 로컬 스토리지 / 객체 json안써도 됨, 문자열 사용
+      const setBackColor = () => {
+        if (localStorage.getItem("theme") === "dark") {
+          document.body.classList.add("dark");
+        } else {
+          document.body.classList.add("light");
+        }
+      };
+
+      setBackColor();
+      
+    </script>
+  </body>
+</html>
